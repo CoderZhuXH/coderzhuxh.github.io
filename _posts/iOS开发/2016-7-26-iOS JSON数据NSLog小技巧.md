@@ -6,7 +6,6 @@ description: iOS 技巧之谈。
 keywords: JSON, 技巧, NSLog
 
 ---
-###	前言:
 
 说到JSON数据NSLog输出,大家可能并不陌生,在向服务器数据请求时,会经常用到,但Xcode的JSON输出并不怎么美丽<br>
 	
