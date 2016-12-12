@@ -4,14 +4,14 @@
 baseurl:
 url: http://mazhuang.org
 date_format: "ordinal"
-title: 朱晓辉
+title: it7090.com
 subtitle: "朱晓辉的技术博客"
 description: "朱晓辉的个人博客"
 keywords: 朱晓辉, Xiaohui Zhu, CoderZhuXH, XHLaunchAd
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 5
+side_bar_repo_limit: 8
 
 # ---------------- #
 #      Author      #
