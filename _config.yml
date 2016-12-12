@@ -17,8 +17,8 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: Xiaohui Zhu
-organization: Sogou, Inc.
-organization_url: https://www.sogou.com
+#organization: Sogou, Inc.
+#organization_url: https://www.sogou.com
 location: Shenzhen, China
 email: it7090@163.com
 
