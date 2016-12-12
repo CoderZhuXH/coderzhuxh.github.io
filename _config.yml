@@ -11,7 +11,7 @@ keywords: 朱晓辉, Xiaohui Zhu, CoderZhuXH, XHLaunchAd
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
-side_bar_repo_limit: 8
+side_bar_repo_limit: 6
 
 # ---------------- #
 #      Author      #
@@ -77,12 +77,12 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: CoderZhuXH/coderzhuxh.github.io
 
 # ---------------- #
 #      Socials     #
 # ---------------- #
-github_username: mzlogin
+github_username: CoderZhuXH
 douban_username: freedim
 facebook_username: mzlogin
 weibo_username: mzlogin
