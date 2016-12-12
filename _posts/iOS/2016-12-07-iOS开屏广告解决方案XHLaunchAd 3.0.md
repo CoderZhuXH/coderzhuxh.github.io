@@ -23,7 +23,9 @@ keywords: iOS, 开屏广告, XHLaunchAd
    2.1.5, 2.1.4, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.1, 2.0, 1.2, 1.1.4, 1.1.3,
    1.1.2, 1.1, 1.0 [master repo]
 ```
+
 ###	主要更新:
+
 1.增加mp4视频开屏广告<br>
 2.增加对本地资源支持<br>
 3.增加预缓存接口<br>
@@ -34,6 +36,7 @@ keywords: iOS, 开屏广告, XHLaunchAd
 8.优化缓存机制,bug fix等等<br>
 
 ###	接入后效果:
+
 ![ScreenShot00.gif](http://upload-images.jianshu.io/upload_images/2229730-866e8214ba1904fa.gif?imageMogr2/auto-orient/strip)
 
 ![ScreenShot06.gif](http://upload-images.jianshu.io/upload_images/2229730-0347e21e70b9bb87.gif?imageMogr2/auto-orient/strip)
@@ -304,5 +307,6 @@ configuratuon.customSkipView = [self customSkipView];
 
 ```
 ###	小结:
+
 [XHLaunchAd 3.0](https://github.com/CoderZhuXH/XHLaunchAd) 拥有更灵活的调用方式和更优雅的接口,后期我还会持续维护并更新他,希望能给更多开发者带来便利!<br>
 代码地址:<https://github.com/CoderZhuXH/XHLaunchAd>
