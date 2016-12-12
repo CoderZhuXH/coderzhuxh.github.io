@@ -4,10 +4,10 @@
 baseurl:
 url: http://mazhuang.org
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: 朱晓辉
+subtitle: "朱晓辉的技术博客"
+description: "朱晓辉的个人博客"
+keywords: 朱晓辉, Xiaohui Zhu, CoderZhuXH, XHLaunchAd
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -16,11 +16,11 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: Xiaohui Zhu
 organization: Sogou, Inc.
 organization_url: https://www.sogou.com
-location: Beijing, China
-email: chumpma@gmail.com
+location: Shenzhen, China
+email: it7090@163.com
 
 # ---------------- #
 #    Navigation    #
