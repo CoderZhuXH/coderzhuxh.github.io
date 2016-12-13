@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift自定义带角标TabBarController
-categories: iOS开发/Swift
+categories: Swift
 description: Swift开发
 keywords: Swift, 自定义, TabBarController
 

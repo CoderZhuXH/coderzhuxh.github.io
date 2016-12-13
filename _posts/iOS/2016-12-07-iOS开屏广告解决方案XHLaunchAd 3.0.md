@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS开屏广告解决方案XHLaunchAd3.0
-categories: iOS开发/Objective-C
+categories: Objective-C
 description: iOS开发
 keywords: iOS, 开屏广告, XHLaunchAd,OC
 
