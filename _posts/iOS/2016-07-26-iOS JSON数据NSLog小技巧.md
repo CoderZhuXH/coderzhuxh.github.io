@@ -1,9 +1,9 @@
 ---
 layout: post
 title: iOS JSON数据NSLog小技巧
-categories: iOS
-description: iOS 技巧之谈
-keywords: JSON, 技巧, NSLog
+categories: iOS开发/Objective-C
+description: iOS技巧之谈
+keywords: JSON,技巧,NSLog,iOS,OC
 
 ---
 

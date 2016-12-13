@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Swift自定义带角标TabBarController
-categories: Swift
+categories: iOS开发/Swift
 description: Swift开发
 keywords: Swift, 自定义, TabBarController
 
@@ -10,6 +10,7 @@ keywords: Swift, 自定义, TabBarController
 在做即时通讯类APP中,经常需要在tabBar上显示数字角标几小红点,这时系统TabBarController已经不能满足需要了,需要自定义TabBarController,OC 自定义TabBarController相信大家都很熟悉,今天笔者来聊聊Swift中自定义TabBarController的实现,笔者顺便做下封装,方便调用.
 
 ###	需求:
+
 1.	自定义TabBarController,传入`文字` `图片` `控制器` 名称数组,实现一行代码创建.
 2.	能够自定义高度
 3.	能够显示数字角标及小红点
@@ -518,5 +519,6 @@ let cls: AnyClass? = NSClassFromString(命名空间 + "." + 类名)
 ![image](http://upload-images.jianshu.io/upload_images/2229730-d3bb56c6afae82d3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ###	小节
+
 *    通过上面的封装可以实现传入数据源,一行代码初始化tabBarController,并且支持角标及小红点,很方便在今后项目中调用.
 *    代码地址:<https://github.com/CoderZhuXH/XHTabBarSwift>

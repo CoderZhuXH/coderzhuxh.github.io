@@ -1,9 +1,9 @@
 ---
 layout: post
 title: iOS开屏广告解决方案XHLaunchAd3.0
-categories: iOS
+categories: iOS开发/Objective-C
 description: iOS开发
-keywords: iOS, 开屏广告, XHLaunchAd
+keywords: iOS, 开屏广告, XHLaunchAd,OC
 
 ---
 
@@ -130,6 +130,7 @@ keywords: iOS, 开屏广告, XHLaunchAd
     //显示视频开屏广告
     [XHLaunchAd videoAdWithVideoAdConfiguration:videoAdconfiguratuon delegate:self];
 ```
+
 ###	注意:
 
 若你的广告图片/视频URL来源于数据请求,请在请求数据前设置等待时间,在数据请求成功回调里,配置广告,如下:
