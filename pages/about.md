@@ -19,9 +19,10 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@CoderZhuXH](https://github.com/CoderZhuXH)
-* 博客：[{{ site.title }}]({{ site.url }})
-* 微博: [@朱晓辉](http://weibo.com/xhwb6)
-* QQ: [@Allen](http://shang.qq.com/email/stop/email_stop.html?qq=977950862)
+* 简书：[@朱晓辉](http://www.jianshu.com/users/acf1a1f12e0f/latest_articles)
+* 微博: [@朱晓辉Allen](http://weibo.com/xhwb6)
+* QQ: 977950862
+* Email: it7090@163.com
 
 ## Skill Keywords
 
