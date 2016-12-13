@@ -8,5 +8,5 @@ menu: 链接
 permalink: /links/
 ---
 
-* [GitHub](https://github.com/CoderZhuXH)
-* [it7090](http://it7090.com)
+* [GitHub @ CoderZhuXH](https://github.com/CoderZhuXH)
+* [简书 @ 朱晓辉](http://www.jianshu.com/users/acf1a1f12e0f/latest_articles)
