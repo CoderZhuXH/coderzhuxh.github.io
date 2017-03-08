@@ -10,6 +10,7 @@ keywords: iOS,JSPatch,OC,热更新
 ![WWDC.jpeg](http://upload-images.jianshu.io/upload_images/2229730-181a03981e57e5f0.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ####一.今天一早不少iOS开发者收到了苹果的警告邮件,内容如下:
+
 >Your app, extension, and/or linked framework appears to contain code designed explicitly with the capability to change your app’s behavior or functionality after App Review approval, which is not in compliance with section 3.3.2 of the Apple Developer Program License Agreement and App Store Review Guideline 2.5.2. This code, combined with a remote resource, can facilitate significant changes to your app’s behavior compared to when it was initially reviewed for the App Store. While you may not be using this functionality currently, it has the potential to load private frameworks, private methods, and enable future feature changes. 
 
 >This includes any code which passes arbitrary parameters to dynamic methods such as dlopen(), dlsym(), respondsToSelector:, performSelector:, method_exchangeImplementations(), and running remote scripts in order to change app behavior or call SPI, based on the contents of the downloaded script. Even if the remote resource is not intentionally malicious, it could easily be hijacked via a Man In The Middle (MiTM) attack, which can pose a serious security vulnerability to users of your app.
@@ -21,6 +22,7 @@ keywords: iOS,JSPatch,OC,热更新
 >App store Review
 
 ####二.苹果审核协议中有这样二项
+
 ![审核.png](http://upload-images.jianshu.io/upload_images/2229730-dfbaa968c0dc85d5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 由于开发者APP中集成或SDK中包含了热更新功能,受到苹果警告.
@@ -52,7 +54,7 @@ BugTags 本身没有直接集成JSPatch,只有动态监测应用是否集成了J
 官方提示:
 由于 Apple 审核政策调整，我们正在关注是否影响热更新 SDK 功能。
 
-###JSPatch
+####JSPatch
 JSPatch issue区炸锅了<https://github.com/bang590/JSPatch/issues/746>
 
 ####四.最后来个段子(摘自网络)
