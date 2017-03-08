@@ -7,8 +7,6 @@ keywords: iOS,JSPatch,OC,热更新
 
 ---
 
-![WWDC.jpeg](http://upload-images.jianshu.io/upload_images/2229730-181a03981e57e5f0.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ####一.今天一早不少iOS开发者收到了苹果的警告邮件,内容如下:
 
 >Your app, extension, and/or linked framework appears to contain code designed explicitly with the capability to change your app’s behavior or functionality after App Review approval, which is not in compliance with section 3.3.2 of the Apple Developer Program License Agreement and App Store Review Guideline 2.5.2. This code, combined with a remote resource, can facilitate significant changes to your app’s behavior compared to when it was initially reviewed for the App Store. While you may not be using this functionality currently, it has the potential to load private frameworks, private methods, and enable future feature changes. 
