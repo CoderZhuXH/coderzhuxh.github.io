@@ -7,6 +7,7 @@ keywords: iOS,JSPatch,OC,热更新
 
 ---
 
+今天一早不少iOS开发者收到了苹果关于使用热修复的警告邮件
 
 ![WWDC.jpeg](http://upload-images.jianshu.io/upload_images/2229730-181a03981e57e5f0.jpeg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
