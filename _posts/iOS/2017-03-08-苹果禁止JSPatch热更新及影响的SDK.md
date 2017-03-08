@@ -68,4 +68,5 @@ JSPatch issue区炸锅了<https://github.com/bang590/JSPatch/issues/746>
 
 ###	四.最后来个段子(摘自网络)
 ![摘自网络.png](http://upload-images.jianshu.io/upload_images/2229730-7ccbd6ff5508067a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-祝愿所有开发者都能顺利通过审核并上线.
+-祝愿所有开发者都能顺利通过审核并上线.
+-转载注明出处.
