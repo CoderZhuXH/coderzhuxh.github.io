@@ -42,6 +42,14 @@ keywords: iOS,JSPatch,OC,热更新
 ####	1.高德地图
 
 高德地图已在第一时间修复并更新了SDK,
+
+1.请更新基础SDK - FoundationSDK至V1.3.4版本.
+
+注意:哪里用到过基础SDK?
+iOS地图(3D/2D)SDK V4.0.0 版、iOS 定位 SDK V2.0.0 版、iOS 导航 SDK V2.0.0 版之后的全部 iOS SDK 均有引入基础SDK - FoundationSDK
+
+2.请更新定位SDK到V2.3.0版本
+
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2229730-58dd51ac83b9be7c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ####	2.个推
