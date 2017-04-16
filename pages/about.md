@@ -14,15 +14,18 @@ permalink: /about/
 ## 坚信
 
 * 熟能生巧
-* 努力改变人生
+* 勤能补拙
 
 ## 联系
 
 * GitHub：[@CoderZhuXH](https://github.com/CoderZhuXH)
 * 简书：[@朱晓辉](http://www.jianshu.com/users/acf1a1f12e0f/latest_articles)
 * 微博: [@朱晓辉Allen](http://weibo.com/xhwb6)
+* 微信公众号: it7090
 * QQ: 977950862
+* 技术交流群: 537476189
 * Email: it7090@163.com
+
 
 ## Skill Keywords
 
