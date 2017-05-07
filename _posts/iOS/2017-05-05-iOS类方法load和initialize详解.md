@@ -53,7 +53,7 @@ In a custom implementation of load you can therefore safely message other unrela
 在+load方法中，可以安全地向同一二进制包中的其它无关的类发送消息，但接收消息的类中的+load方法可能尚未被调用。
 
 ```
-文档地址:https://developer.apple.com/reference/objectivec/nsobject/1418815-load?language=objc
+文档地址:<https://developer.apple.com/reference/objectivec/nsobject/1418815-load?language=objc>
 
 ####  load函数调用特点如下:
 当类被引用进项目的时候就会执行load函数(在main函数开始执行之前）,与这个类是否被用到无关,每个类的load函数只会自动调用一次.由于load函数是系统自动加载的，因此不需要调用父类的load函数，否则父类的load函数会多次执行。
@@ -151,7 +151,7 @@ The runtime sends initialize to each class in a program exactly one time just be
 Runtime在一个程序中每一个类的一个程序中发送一个初始化一次，或是从它继承的任何类中，都是在程序中发送第一条消息。（因此，当该类不使用时，该方法可能永远不会被调用。）运行时发送一个线程安全的方式初始化消息。父类的调用一定在子类之前。
 
 ```
-文档地址:https://developer.apple.com/reference/objectivec/nsobject/1418639-initialize?language=objc
+文档地址:<https://developer.apple.com/reference/objectivec/nsobject/1418639-initialize?language=objc>
 
 ####  initialize函数调用特点如下:
 initialize在类或者其子类的第一个方法被调用前调用。即使类文件被引用进项目,但是没有使用,initialize不会被调用。由于是系统自动调用，也不需要再调用  [super initialize] ，否则父类的initialize会被多次执行。假如这个类放到代码中，而这段代码并没有被执行，这个函数是不会被执行的。
@@ -331,7 +331,7 @@ Teacher.m中不实现initialize方法
 
 ##  什么情况下使用:
 
-####+load
+####	+load
 
 由于调用load方法时的环境很不安全，我们应该尽量减少load方法的逻辑。另一个原因是load方法是线程安全的，它内部使用了锁，所以我们应该避免线程阻塞在load方法中
 
@@ -355,7 +355,7 @@ load很常见的一个使用场景,交换两个方法的实现
 }
 ```
 
-####+initialize
+####	+initialize
 initialize方法主要用来对一些不方便在编译期初始化的对象进行赋值。比如NSMutableArray这种类型的实例化依赖于runtime的消息发送，所以显然无法在编译器初始化：
 ```objc
 
@@ -402,6 +402,6 @@ load方法是线程安全的，它使用了锁，我们应该避免线程阻塞�
 initialize内部也使用了锁，所以是线程安全的。但同时要避免阻塞线程，不要再使用锁
 
 ----------------------
-代码地址:https://github.com/CoderZhuXH/LoadAndInitializeExample
+代码地址:<https://github.com/CoderZhuXH/LoadAndInitializeExample>
 
 -转载注明出处
