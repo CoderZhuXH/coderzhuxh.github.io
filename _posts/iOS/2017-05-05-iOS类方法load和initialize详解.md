@@ -402,6 +402,6 @@ load方法是线程安全的，它使用了锁，我们应该避免线程阻塞�
 initialize内部也使用了锁，所以是线程安全的。但同时要避免阻塞线程，不要再使用锁
 
 ----------------------
-代码地址:<https://github.com/CoderZhuXH/LoadAndInitializeExample>
+代码地址:<https://github.com/CoderZhuXH/MyBlogExample>
 
 -转载注明出处
