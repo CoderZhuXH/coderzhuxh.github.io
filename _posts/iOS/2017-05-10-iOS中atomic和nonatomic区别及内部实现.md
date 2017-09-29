@@ -7,7 +7,7 @@ keywords: iOS,atomic,nonatomic
 
 ---
 
-iOS开发中使用@property声明属性时,经常用到atomic与nonatomic两个关键字....
+iOS开发中使用@property声明属性时,经常用到atomic与nonatomic两个关键字...
 
 ![](http://upload-images.jianshu.io/upload_images/2229730-b931e153e0c8c8e0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
