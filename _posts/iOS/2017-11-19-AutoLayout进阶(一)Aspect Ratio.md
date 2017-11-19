@@ -80,6 +80,6 @@ AutoLayout相信大家都不陌生,iOS开发中涉及到UI布局的地方,都有
 由于设置了imgView宽高比为16:9,所以宽度动态变化时,其高度也会根据设置的宽高比做相应变化.
 
 ----------------------
-代码地址:https://github.com/CoderZhuXH/AutoLayout
+代码地址:<https://github.com/CoderZhuXH/AutoLayout>
 
 -转载注明出处
