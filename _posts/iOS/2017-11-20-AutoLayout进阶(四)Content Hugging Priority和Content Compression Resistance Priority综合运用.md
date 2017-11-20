@@ -171,7 +171,7 @@ Content Compression Resistance 抗压缩优先级
 这两个属性,在UITableViewCell 自动高度上有这广泛运用,下一章节将重点来将,复杂TableViewCell,在不计算子文字高度情况下,不用第三方TableViewCell自动计算高度框架情况下,怎么实现自动高度.
 
 ----------------------
-代码地址:https://github.com/CoderZhuXH/AutoLayout
+代码地址:<https://github.com/CoderZhuXH/AutoLayout>
 
 
 -转载注明出处

@@ -87,6 +87,6 @@ Content Compression Resistance 抗压缩优先级
 此属性在多个子视图动态尺寸,并子视图内容可能超出父视图区域时,会起到重要作用,后面会结合实例来详细介绍.
 
 ----------------------
-代码地址:https://github.com/CoderZhuXH/AutoLayout
+代码地址:<https://github.com/CoderZhuXH/AutoLayout>
 
 -转载注明出处
