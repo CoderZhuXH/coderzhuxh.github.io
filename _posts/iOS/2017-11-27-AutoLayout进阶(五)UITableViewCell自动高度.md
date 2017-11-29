@@ -19,7 +19,7 @@ iOS8 WWDC 中推出了 self-sizing cell 的概念，旨在让 cell 自己负责�
 由于之前APP 需要兼容iOS7,所以很多开发者由于考虑到兼容iOS7,还是使用手动计算高度,或第三方自动计算高度框架,来计算动态UITableViewCell高度,
 但随着Xcode9普及,开发工具限制了最低只能兼容到iOS8,所以我们可以好好运用这一特性了,不必在使用传统方式来处理动态UITableViewCell高度了.
 
-####  二.自动高度Demo效果(此效果为悟空问答UI某一界面)
+####  二.自动高度Demo效果(此效果模仿悟空问答某一界面)
 ![Demo.gif](http://upload-images.jianshu.io/upload_images/2229730-7f0d33b5f5f6a7e4.gif?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ####  三.实现部分

@@ -21,7 +21,7 @@ keywords: iOS, AutoLayout , Content Hugging Priority
 #####  1.  Content Hugging Priority:
 抗拉伸优先级,
 值越小,视图越容易被拉伸
-此值默认为251
+
 
 #####  2.  使用场景:
 当一个视图上有多个intrinsic content size的控件动态尺寸,在这几个视图内容总和,不够填充父视图区域时,此属性可以控制优先拉伸哪个视图内容.

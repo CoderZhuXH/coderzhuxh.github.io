@@ -21,7 +21,6 @@ keywords: iOS, AutoLayout , Content Compression Resistance Priority
 
 视图抗压缩优先级,
 值越小,视图越容易被压缩
-此值默认为750
 
 #####  2.  使用场景:
 
