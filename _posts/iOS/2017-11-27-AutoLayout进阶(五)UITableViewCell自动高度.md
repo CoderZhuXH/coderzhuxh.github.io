@@ -15,6 +15,7 @@ keywords: iOS, AutoLayout , UITableViewCell自动高度
 
 
 ####  一.  UITableViewCell自动高度:
+
 iOS8 WWDC 中推出了 self-sizing cell 的概念，旨在让 cell 自己负责自己的高度计算,
 由于之前APP 需要兼容iOS7,所以很多开发者由于考虑到兼容iOS7,还是使用手动计算高度,或第三方自动计算高度框架,来计算动态UITableViewCell高度,
 但随着Xcode9普及,开发工具限制了最低只能兼容到iOS8,所以我们可以好好运用这一特性了,不必在使用传统方式来处理动态UITableViewCell高度了.
@@ -118,6 +119,7 @@ static NSString *const id_DemoCell = @"DemoCell";
 
 ```
 #####  2.UITableViewCell AutoLayout部分
+
 *  新建一个cell命名DemoCell,添加子控件如图
 ![DemoCell@2x.png](http://upload-images.jianshu.io/upload_images/2229730-0e9d96d217005e44.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
