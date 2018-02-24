@@ -1,13 +1,12 @@
 ---
 layout: post
-title: iOS不用官方SDK实现微信和支付宝支付XHPayKit
+title: 不用官方SDK实现微信和支付宝支付XHPayKit
 categories: Objective-C
 description: iOS开发
 keywords: iOS, 微信支付 , 支付宝支付
 
 ---
 
-##  前言
 前段时间由于项目需求,移除了项目中的微信支付SDK和支付宝支付SDK,这种情况下需要自己搞定支付,第一时间考虑到的是使用openshare,但是当下载openshare下来后发现,openshare的支付接口,并不能直接替换官方SDK支付接口,<br>
 官方SDK的实现逻辑是后台订单签名完成后,客服端传签名信息及参数给支付SDK,支付SDK生成协议url,然后拉起第三方支付APP,<br>
 而openshare的支付接口是直接传拉起支付的协议url地址,将生成协议url地址的操作也交给后台来生成,
