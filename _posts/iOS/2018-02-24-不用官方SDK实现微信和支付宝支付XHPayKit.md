@@ -7,14 +7,14 @@ keywords: iOS, 微信支付 , 支付宝支付
 
 ---
 
-![微信、支付宝支付](http://upload-images.jianshu.io/upload_images/2229730-5b68c6e7af0f19be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
-
 ##  前言
 前段时间由于项目需求,移除了项目中的微信支付SDK和支付宝支付SDK,这种情况下需要自己搞定支付,第一时间考虑到的是使用openshare,但是当下载openshare下来后发现,openshare的支付接口,并不能直接替换官方SDK支付接口,<br>
 官方SDK的实现逻辑是后台订单签名完成后,客服端传签名信息及参数给支付SDK,支付SDK生成协议url,然后拉起第三方支付APP,<br>
 而openshare的支付接口是直接传拉起支付的协议url地址,将生成协议url地址的操作也交给后台来生成,
 这样的话后台需要修改代码,<br>
 能否不修改后台代码,弄一个支付接口直接替换官方SDK支付接口,实现无缝对接呢,于是就研究了下微信和支付宝支付时APP间通讯关系,最后封装成[XHPayKit](https://github.com/CoderZhuXH/XHPayKit).
+
+![微信、支付宝支付](http://upload-images.jianshu.io/upload_images/2229730-5b68c6e7af0f19be.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 ## 特性:
 
