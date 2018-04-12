@@ -3,7 +3,7 @@ layout: post
 title: 不用官方SDK实现微信和支付宝支付XHPayKit
 categories: Objective-C
 description: iOS开发
-keywords: iOS, 微信支付 , 支付宝支付
+keywords: iOS, 微信支付 , 支付宝支付 ,支付
 
 ---
 
