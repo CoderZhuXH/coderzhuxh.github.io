@@ -19,7 +19,8 @@ permalink: /about/
 ## 联系
 
 * GitHub：[@CoderZhuXH](https://github.com/CoderZhuXH)
-* 简书：[@朱晓辉](http://www.jianshu.com/users/acf1a1f12e0f/latest_articles)
+* 简书：[@朱晓辉](https://www.jianshu.com/u/acf1a1f12e0f)
+* 掘金：[@朱晓辉Allen](https://juejin.im/user/59b50d3cf265da066d331a06)
 * 微博: [@朱晓辉Allen](http://weibo.com/xhwb6)
 * 微信公众号: it7090
 * QQ: 977950862
